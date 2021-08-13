@@ -17,24 +17,24 @@ libraryDependencies ++=
  * @see [[https://github.com/seratch/finagle-playground/blob/5c004bdb17a346936549ec00d731db5b35b4cddc/hello-twitter-server/src/main/scala/example/BasicServer.scala#L9-L16]]
  */
 libraryDependencies ++=
-  ("com.twitter" %% "finagle-stats" % "21.6.0" ::
-    "com.twitter" %% "finatra-http-server" % "21.6.0" ::
-    "com.twitter" %% "inject-logback" % "21.6.0" ::
-    "com.twitter" %% "inject-server" % "21.6.0" ::
-    "com.twitter" %% "inject-slf4j" % "21.6.0" ::
-    "com.twitter" %% "inject-utils" % "21.6.0" ::
-    "com.twitter" %% "twitter-server-logback-classic" % "21.6.0" ::
-    "com.twitter" %% "util-validator" % "21.6.0" ::
+  ("com.twitter" %% "finagle-stats" % "21.8.0" ::
+    "com.twitter" %% "finatra-http-server" % "21.8.0" ::
+    "com.twitter" %% "inject-logback" % "21.8.0" ::
+    "com.twitter" %% "inject-server" % "21.8.0" ::
+    "com.twitter" %% "inject-slf4j" % "21.8.0" ::
+    "com.twitter" %% "inject-utils" % "21.8.0" ::
+    "com.twitter" %% "twitter-server-logback-classic" % "21.8.0" ::
+    "com.twitter" %% "util-validator" % "21.8.0" ::
     Nil)
     .map(_
       .cross(CrossVersion.for3Use2_13))
 
 libraryDependencies ++=
-  (("com.twitter" %% "finatra-http-server" % "21.6.0" % Test).classifier("tests") ::
-    ("com.twitter" %% "inject-server" % "21.6.0" % Test).classifier("tests") ::
-    ("com.twitter" %% "inject-app" % "21.6.0" % Test).classifier("tests") ::
-    ("com.twitter" %% "inject-core" % "21.6.0" % Test).classifier("tests") ::
-    ("com.twitter" %% "inject-modules" % "21.6.0" % Test).classifier("tests") ::
+  (("com.twitter" %% "finatra-http-server" % "21.8.0" % Test).classifier("tests") ::
+    ("com.twitter" %% "inject-server" % "21.8.0" % Test).classifier("tests") ::
+    ("com.twitter" %% "inject-app" % "21.8.0" % Test).classifier("tests") ::
+    ("com.twitter" %% "inject-core" % "21.8.0" % Test).classifier("tests") ::
+    ("com.twitter" %% "inject-modules" % "21.8.0" % Test).classifier("tests") ::
     Nil)
     .map(_
       .cross(CrossVersion.for3Use2_13))
