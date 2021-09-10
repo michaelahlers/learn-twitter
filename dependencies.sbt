@@ -5,7 +5,7 @@ ThisBuild / scalaVersion := "2.13.6"
 resolvers += Resolver.url("Ahlers Consulting Artifacts (public)", url("https://ahlers-consulting-artifacts-public.s3.amazonaws.com/"))(Resolver.ivyStylePatterns)
 
 libraryDependencies ++=
-  "ch.qos.logback" % "logback-classic" % "1.2.5" ::
+  "ch.qos.logback" % "logback-classic" % "1.2.6" ::
     "net.logstash.logback" % "logstash-logback-encoder" % "6.6" ::
     //"com.datadoghq" %% "dd-finagle" % "0.2.3" ::
     "com.datadoghq" %% "dd-finagle_21.6" % "0.2.9-SNAPSHOT" ::
