@@ -46,7 +46,7 @@ libraryDependencies ++=
     "org.scalacheck" %% "scalacheck" % "1.15.4" % Test ::
     "org.scalamock" %% "scalamock" % "5.1.0" % Test ::
     "org.scalatest" %% "scalatest" % "3.2.9" % Test ::
-    "org.scalatestplus" %% "scalacheck-1-15" % "3.2.9.0" % Test ::
+    "org.scalatestplus" %% "scalacheck-1-15" % "3.2.10.0" % Test ::
     Nil)
     .map(_
       .cross(CrossVersion.for3Use2_13))
