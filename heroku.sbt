@@ -7,7 +7,7 @@ Compile / herokuAppName :=
 Compile / herokuSkipSubProjects := false
 
 Compile / herokuBuildpacks :=
-  //"https://github.com/heroku/heroku-buildpack-apt.git" ::
+  // "https://github.com/heroku/heroku-buildpack-apt.git" ::
   "https://github.com/DataDog/heroku-buildpack-datadog.git" ::
     "heroku/jvm" ::
     Nil

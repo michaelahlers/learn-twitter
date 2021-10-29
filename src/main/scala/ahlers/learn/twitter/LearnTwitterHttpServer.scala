@@ -17,7 +17,7 @@ class LearnTwitterHttpServer
   extends HttpServer
     with Logging {
 
-  //override protected def statsReceiverModule =
+  // override protected def statsReceiverModule =
   //  StatsReceiverModule
 
   override val modules: Seq[Module] =
