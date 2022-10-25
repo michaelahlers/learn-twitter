@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.13.6"
+ThisBuild / scalaVersion := "2.13.10"
 
 //resolvers += Resolver.githubPackages("michaelahlers", "datadog-finagle")
 //resolvers += "michaelahlers/datadog-finagle".at("https://maven.pkg.github.com/michaelahlers/datadog-finagle")
