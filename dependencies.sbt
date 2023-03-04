@@ -42,7 +42,7 @@ libraryDependencies ++=
 libraryDependencies ++=
   ("com.softwaremill.diffx" %% "diffx-scalatest" % "0.5.4" % Test ::
     "com.github.alexarchambault" %% "scalacheck-shapeless_1.15" % "1.3.0" % Test ::
-    "io.circe" %% "circe-core" % "0.14.1" % Test ::
+    "io.circe" %% "circe-core" % "0.14.5" % Test ::
     "org.scalacheck" %% "scalacheck" % "1.15.4" % Test ::
     "org.scalamock" %% "scalamock" % "5.1.0" % Test ::
     "org.scalatest" %% "scalatest" % "3.2.9" % Test ::
