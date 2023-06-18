@@ -6,7 +6,7 @@ resolvers += Resolver.url("Ahlers Consulting Artifacts (public)", url("https://a
 
 libraryDependencies ++=
   "ch.qos.logback" % "logback-classic" % "1.2.5" ::
-    "net.logstash.logback" % "logstash-logback-encoder" % "6.6" ::
+    "net.logstash.logback" % "logstash-logback-encoder" % "7.4" ::
     //"com.datadoghq" %% "dd-finagle" % "0.2.3" ::
     "com.datadoghq" %% "dd-finagle_21.6" % "0.2.9-SNAPSHOT" ::
     "io.scalaland" %% "chimney" % "0.6.1" ::
